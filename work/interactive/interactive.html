@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Work: Interactive Final</title>
+<link href="../../css/main.css" rel="stylesheet" type="text/css">
+<link href="css/lightbox.css" rel="stylesheet" />
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/lightbox-2.6.min.js"></script>
+</head>
+
+<body>
+<header class="interactiveMainHeader">
+  <h1>Work: Interactive</h1>
+  <div><div class="jsModule"><script>
+
+/*Current date script credit: 
+JavaScript Kit (www.javascriptkit.com)
+Over 200+ free scripts here!
+*/
+
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+document.write("<small><b>"+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+"</b></font></small>")
+
+</script>
+</div></div>
+</header>
+<nav class="mainNav">
+  <ul style="left: 315px; top: 25px;">
+    <li><a href="../../index.html">Home</a></li>
+    <li><a href="../../about/about.html">About</a></li>
+    <li><a href="../work.html" class="Hcurrent">Work</a></li>
+    <li><a href="../../contact/contact.html">Contact</a></li>
+  </ul></nav>
+
+<main class="interactiveMainContent">
+  
+  <p> <a href="../advertising/advertising.html"><img src="../images/advertisingNav.png" width="120" height="35" alt=""/></a> 
+    <section class="LBpeople"><a href="largeLB/people1_lg.jpg"><img src="thumbsLB/people1_th.jpg" width="150" height="150" alt=""/></a><a href="largeLB/people2_lg.jpg"><img src="thumbsLB/people2_th.jpg" width="150" height="150" alt=""/></a><a href="largeLB/people3_lg.jpg"><img src="thumbsLB/people3_th.jpg" width="150" height="150" alt=""/></a></section>
+  </p>
+  <p><a href="../branding/branding.html"><img src="../images/brandingNav.png" width="120" height="35" alt=""/></a>
+    <section class="LBplants"><a href="largeLB/plant1_lg.jpg"><img src="thumbsLB/plant1_th.jpg" width="150" height="150" alt=""/></a><a href="largeLB/plant2_lg.jpg"><img src="thumbsLB/plant2_th.jpg" width="150" height="150" alt=""/></a><a href="largeLB/plant3_lg.jpg"><img src="thumbsLB/plant3_th.jpg" width="150" height="150" alt=""/></a></section>
+  </p>
+  <p><a href="interactive.html"><img src="../images/interactiveNav.png" width="120" height="35" alt=""/></a>
+    <section class="LBanimals"><a href="largeLB/animal1_lg.jpg"><img src="thumbsLB/animal1_th.jpg" width="150" height="150" alt=""/></a><a href="largeLB/animal2_lg.jpg"><img src="thumbsLB/animal2_th.jpg" width="150" height="150" alt=""/></a><a href="largeLB/animal3_lg.jpg"><img src="thumbsLB/animal3_th.jpg" width="150" height="150" alt=""/></a></section>
+  </p>
+ 
+</main>
+<footer class="mainFooter">
+  <h3><a href="../../index.html">Home</a> | <a href="../../about/about.html">About</a> | <a href="../work.html">Work</a> | <a href="../../contact/contact.html">Contact</a></h3>
+</footer>
+</body>
+</html>

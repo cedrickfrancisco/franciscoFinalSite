@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Francisco: Contact: Final</title>
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header class="contactMainHeader">
+  <h1>Contact</h1>
+  <div><div class="jsModule"><script>
+
+/*Current date script credit: 
+JavaScript Kit (www.javascriptkit.com)
+Over 200+ free scripts here!
+*/
+
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+document.write("<small><b>"+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+"</b></font></small>")
+
+</script>
+</div></div>
+</header>
+<nav class="mainNav">
+  <ul style="left: 315px; top: 25px;">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../about/about.html">About</a></li>
+    <li><a href="../work/work.html">Work</a></li>
+    <li><a href="contact.html" class="Hcurrent">Contact</a></li>
+  </ul></nav>
+
+<main class="contactMainContent"><a href="mailto:mywebsite@gmail.com">mywebsite@gmail.com</a>
+<p><a href="mailto:mywebsite@gmail.com"><img src="images/contactImage.png" width="100" height="95" alt=""/></a></p>
+<p><img src="images/franciscoFinalSiteImgMap.png" alt="" width="300" height="200" usemap="#Map"/>
+  <map name="Map">
+    <area shape="rect" coords="25,19,86,183" href="https://www.apple.com" target="_blank">
+    <area shape="rect" coords="107,28,269,85" href="https://www.youtube.com/live/aCS-fk5WiOc?si=Myi3xHXxC_BxBe47" target="_blank">
+    <area shape="rect" coords="108,104,268,178" href="../index.html">
+  </map>
+</p>
+</main>
+<footer class="mainFooter">
+  <h3><a href="../index.html">Home</a> | <a href="../about/about.html">About</a> | <a href="../work/work.html">Work</a> | <a href="contact.html">Contact</a></h3>
+</footer>
+</body>
+</html>

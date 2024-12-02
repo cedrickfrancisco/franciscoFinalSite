@@ -1,0 +1,340 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background-color: #614ACD;
+    color: #614ACD;
+    background-image: url(../images/bodyFullBkgnd.jpg);
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+}
+.mainHeader {
+    height: 100px;
+    background-color: #8C85B2;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+}
+.aboutMainHeader {
+    height: 100px;
+    background-color: #A03B8F;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    color: #B95ED3;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.contactMainHeader {
+    height: 100px;
+    background-color: #3B787B;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    color: #A5D2D4;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.workMainHeader {
+    height: 100px;
+    background-color: #4C466E;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    color: #8ABBD8;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.mainHeader .jsModule {
+    text-align: left;
+    color: #BBBBEC;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.advertisingMainHeader {
+    height: 100px;
+    background-color: #8C85B2;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    color: #1C3748;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    background-image: url(../contact/images/smallTile.png);
+    background-repeat: repeat;
+}
+.brandingMainHeader {
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    color: #C34ACD;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    background-color: #614ACD;
+}
+.interactiveMainHeader {
+    height: 100px;
+    background-color: #B95ED3;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    color: #14959C;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.advertisingMainHeader div .jsModule {
+    text-align: left;
+}
+#skyBanner {
+    position: absolute;
+}
+.mainHeader h1 {
+    color: #BBBBEC;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+#skyBanner {
+    position: absolute;
+    left: 913px;
+    top: 1px;
+}
+.mainNav {
+    background-color: #BBBBEC;
+    height: 70px;
+    text-align: center;
+}
+.mainNav ul {
+    top: 20px;
+    left: 20px;
+}
+.mainNav ul li {
+    padding: 0px;
+    margin: 0px;
+    display: inline;
+    position: relative;
+    right: 20px;
+    top: 25px;
+}
+.mainNav ul li a {
+    background-color: #4C466E;
+    padding: 8px;
+    color: #BBBBEC;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    position: relative;
+}
+.mainNav ul li a:link  , .mainNav ul li a:visited{
+    background-color: #4C466E;
+    padding: 8px;
+    color: #BBBBEC;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.mainNav ul li a:hover  , .mainNav ul li a:active{
+    background-color: #4B4BCD;
+    padding: 8px;
+    color: #C34ACD;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.mainNav ul li a.Hcurrent      {
+    background-color: #4B4BCD;
+    padding: 8px;
+    color: #C34ACD;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    cursor: default;
+}
+.mainContent {
+    background-color: #8C85B2;
+    color: #FFFFFF;
+    margin: 0px;
+    height: auto;
+    position: relative;
+}
+.aboutMainContent {
+    background-color: #8C85B2;
+    color: #FFFFFF;
+    margin: 0px;
+    height: auto;
+    position: relative;
+}
+.workMainContent {
+    background-color: #4C466E;
+    color: #FFFFFF;
+    margin: 0px;
+    height: auto;
+    position: relative;
+}
+.brandingMainContent {
+    background-color: #614ACD;
+    color: #FFFFFF;
+    margin: 0px;
+    height: auto;
+    position: relative;
+}
+.advertisingMainContent {
+    background-color: #8C85B2;
+    color: #FFFFFF;
+    margin: 0px;
+    height: auto;
+    position: relative;
+    background-image: url(../contact/images/smallTile.png);
+}
+.contactMainContent {
+    background-color: #3B787B;
+    color: #FFFFFF;
+    margin: 0px;
+    height: auto;
+    position: relative;
+}
+.mainContent .leftAside {
+    width: 300px;
+    height: 200px;
+    margin-top: 15px;
+    padding: 10px;
+    margin-right: 15px;
+    float: left;
+    background-color: #356A8E;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+mainContent.leftAside p a {
+}
+.mainContent p {
+    padding: 15px;
+    margin: 0px;
+    text-align: center;
+}
+.mainContent p img {
+    float: left;
+    padding-right: 10px;
+    border-right-width: 1px;
+    margin-right: 10px;
+}
+.mainContent p a img {
+    position: static;
+    text-align: left;
+}
+.interactiveMainContent {
+    background-color: #B95ED3;
+    color: #FFFFFF;
+    margin: 0px;
+    padding-top: 30px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+.interactiveMainContent p .LBpeople {
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BBBBEC;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.LBpeople a img {
+    margin-left: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #BBBBEC;
+}
+.LBpeople a:hover img {
+    margin-left: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #614ACD;
+}
+.interactiveMainContent p .LBplants {
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BBBBEC;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.LBplants a img {
+    margin-left: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #BBBBEC;
+}
+.LBplants a:hover img {
+    margin-left: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #614ACD;
+}
+.interactiveMainContent p .LBanimals {
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BBBBEC;
+    margin-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.LBanimals a img {
+    margin-left: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #BBBBEC;
+}
+.LBanimals a:hover img {
+    margin-left: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #614ACD;
+}
+.mainNav ul li a:link , {
+    background-color: #4C466E;
+    padding: 8px;
+    color: #BBBBEC;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.mainFooter {
+    background-color: #BBBBEC;
+    height: 60px;
+    text-align: center;
+    color: #8C85B2;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+.mainFooter a:link , .mainFooter a:visited{
+    color: #4C466E;
+    border-right-width: 1px;
+}
+.mainFooter a:hover , .mainFooter a:active{
+    color: #C34ACD;
+}
+.aboutMainHeader div .jsModule {
+    text-align: left;
+}
+.contactMainHeader div .jsModule {
+    text-align: left;
+}
+.brandingMainHeader div .jsModule {
+    text-align: left;
+}
+.interactiveMainHeader div .jsModule {
+    text-align: left;
+}
+.workMainHeader div .jsModule {
+    text-align: left;
+}
